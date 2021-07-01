@@ -7,7 +7,7 @@ include path
 $(VULKANSDK)\include
 $(VULKANSDK)\Third-Party\GLFW
 $(VULKANSDK)\Third-Party\glm
-$(VULKANSDK)\Third-Party\utils
+
 
 lib path
 $(VULKANSDK)\Lib
