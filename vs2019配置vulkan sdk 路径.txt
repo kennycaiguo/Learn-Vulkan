@@ -6,7 +6,7 @@ D:\VulkanSDK\1.2.176.1，以后在vs中配置vulkan可以使用这个变量
 include path
 $(VULKANSDK)\include
 $(VULKANSDK)\Third-Party\GLFW
-$(VULKANSDK)\glm
+$(VULKANSDK)\Third-Party\glm
 $(VULKANSDK)\Third-Party\utils
 
 lib path
