@@ -1,0 +1,18 @@
+include path
+$(VULKANSDK)\include
+$(VULKANSDK)\Third-Party\GLFW
+$(VULKANSDK)\glm
+
+lib path
+$(VULKANSDK)\Lib
+右击计算机图标-》属性-》高级-》环境变量-》系统环境变量，
+新建一个叫做VULKANSDK的环境变量，值位vulkanSdk的安装路径如：
+D:\VulkanSDK\1.2.176.1，以后在vs中配置vulkan可以使用这个变量
+$(VULKANSDK)\Third-Party\glfwlib64
+
+input libs：
+vulkan-1.lib
+glfw3.lib
+
+注意，vulkan-1.lib是64位的，必须使用64位的glfw，构建时选择X64选项
+否则不能通过
